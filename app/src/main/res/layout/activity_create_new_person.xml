@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:orientation="vertical"
+tools:context=".createNewPerson">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/createnewperson_texview_newname"
+
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:hint="@string/yenikisi_edittext_name"
+        android:textColor="@android:color/black"
+        android:id="@+id/yenikisi_isim_edittext"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <RadioGroup
+        android:id="@+id/radiogrp_gender"
+        style="@style/radiogroup">
+
+        <RadioButton
+            style="@style/radiobtn"
+            android:text="@string/createnewperson_raadiobtn_man" />
+
+        <RadioButton
+            style="@style/radiobtn"
+            android:text="@string/createnewperson_raadiobtn_woman" />
+
+    </RadioGroup>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <RadioGroup
+        android:id="@+id/radiogrp_work"
+        style="@style/radiogroup">
+
+        <RadioButton
+            style="@style/radiobtn"
+            android:text="@string/createnewperson_radiobtn_working" />
+
+        <RadioButton
+            style="@style/radiobtn"
+            android:text="@string/createnewperson_radiobtn_notworking" />
+
+    </RadioGroup>
+</LinearLayout>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:id="@+id/yenikisi_ekle_btn"
+    android:text="@string/createnewperson_btn_addnewperson"
+    android:textSize="20dp" />
+
+</LinearLayout>

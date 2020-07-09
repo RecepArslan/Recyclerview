@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">proje2_rcyclerview</string>
+    <string name="createnewperson_texview_newname">Adınız Soyadınız:</string>
+    <string name="createnewperson_radiobtn_working">Çalışıyor</string>
+    <string name="createnewperson_radiobtn_notworking">Çalışmıyor</string>
+    <string name="createnewperson_raadiobtn_man">Erkek</string>
+    <string name="createnewperson_raadiobtn_woman">Kadın</string>
+    <string name="createnewperson_btn_addnewperson">Ekle</string>
+    <string name="kisiSil">Sil</string>
+    <string name="aboutclickedperson_genderman">CİNSİYET: ERKEK</string>
+    <string name="aboutclickedperson_genderwoman">CİNSİYET: kadın</string>
+    <string name="aboutclickedperson_workingyes">ÇALIŞMA DURUMU: ÇALIŞIYOR</string>
+    <string name="aboutclickedperson_workingno">ÇALIŞMA DURUMU: ÇALIŞMIYOR</string>
+    <string name="eksikbilgi">Lütfen bilgileri eksiksiz doldurununuz</string>
+    <string name="yenikisi_edittext_name">adınızı ve soyadınızı giriniz</string>
+</resources>

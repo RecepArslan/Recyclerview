@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:orientation="vertical"
+tools:context=".aboutClickedperson">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="KİŞİNİN BİLGİLERİ"
+    android:textSize="30dp" />
+
+<TextView
+    android:id="@+id/bilgileriGoster_textview_ad"
+    style="@style/gosterTextview"/>
+
+<TextView
+    android:id="@+id/bilgileriGoster_textview_cinsiyet"
+    style="@style/gosterTextview" />
+
+
+<TextView
+    android:id="@+id/bilgileriGoster_textview_Calisma"
+    style="@style/gosterTextview" />
+
+<Button
+    android:id="@+id/bilgileriGoster_btn_sil"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:text="@string/kisiSil"></Button>
+
+</LinearLayout>
